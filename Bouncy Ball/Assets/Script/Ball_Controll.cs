@@ -144,6 +144,7 @@ public class Ball_Controll : MonoBehaviour
         }
     }
 
+    //checkTag 함수로 공이랑 충돌한 오브젝트를 판별해 힘을 얼마만큼 줄 건지 정한다.
     private void checkTag(Collider2D[] cColCheck)
     {
         if (cColCheck[num].gameObject.tag == "BLOCK")
