@@ -42,8 +42,8 @@ public class SceneManager : MonoBehaviour
         }
     }
 
-    public void firstScene()
-    {
-        Application.LoadLevel("Stage01_01");
-    }
+    // public void firstScene()
+    // {
+    //     Application.LoadLevel("Stage01_01");
+    // }
 }
